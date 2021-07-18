@@ -81,7 +81,7 @@ function Header(){
             <Grid item xs={12}>
               <Breadcrumbs aria-label="breadcrumb">
               <Link color="inherit" href="/" onClick={handleClick}>
-              something
+              About
               </Link>
               <Link color="inherit" href="/homepage-content.js" onClick={handleClick}>
               Portfolio
