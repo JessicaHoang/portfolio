@@ -3,7 +3,6 @@ import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 //import Link from '@material-ui/core/Link';
 import Typography from '@material-ui/core/Typography';
 import {Link} from 'react-router-dom';
-//import {Link} from 'react-router-dom';
 
 function Nav () {
     function handleClick(event) {
