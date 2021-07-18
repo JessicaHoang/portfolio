@@ -1,0 +1,8 @@
+@import "~bootstrap/scss/bootstrap";
+
+#NavigationBar {
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 0%;   
+ display: flex;
+}
