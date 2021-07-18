@@ -8,7 +8,8 @@ import Grid from '@material-ui/core/Grid';
 
 // importing other containers
 import Header from './components/header'
-
+import About from './components/about';
+import Footer from './components/footer';
 
 function HomepageMain(){  
     const useStyles = makeStyles((theme) => ({
@@ -40,10 +41,10 @@ function HomepageMain(){
                         <Paper className={classes.paper} padding={2}><Header/></Paper>
                     </Grid>
                     <Grid item xs={12}>
-                        <Paper className={classes.paper} padding={2}>Homepage-content</Paper>
+                        <Paper className={classes.paper} padding={2}><About/></Paper>
                     </Grid>
                     <Grid item xs={12}>
-                        <Paper className={classes.paper}>Footer</Paper>
+                        <Paper className={classes.paper}><Footer/></Paper>
                     </Grid>
 
                 </Grid>

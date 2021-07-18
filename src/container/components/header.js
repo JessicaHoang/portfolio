@@ -10,14 +10,7 @@ import {
 import { CardActionArea, CardMedia } from '@material-ui/core';
 import Card from '@material-ui/core/Card';
 import Typography from '@material-ui/core/Typography';
-import Breadcrumbs from '@material-ui/core/Breadcrumbs';
-import Link from '@material-ui/core/Link';
-
-
-function handleClick(event) {
-  event.preventDefault();
-  console.info('You clicked a breadcrumb.');
-}
+import Nav from './nav';
 
 function Header(){
 
@@ -35,7 +28,7 @@ function Header(){
           height: 105,
           width: 90,
           alignItems: 'center',
-          display:'fleBox',
+          display:'flexBox',
           justifyContent: 'center'
           
         }
@@ -80,15 +73,7 @@ function Header(){
               
             </Grid>
             <Grid item xs={12}>
-              <Breadcrumbs aria-label="breadcrumb">
-              <Link color="inherit" href="/about.js" onClick={handleClick}>
-              About
-              </Link>
-              <Link color="inherit" href="/homepage-content.js" onClick={handleClick}>
-              Portfolio
-              </Link>
-              <Typography color="textPrimary">Resume</Typography>
-              </Breadcrumbs>
+                <Nav/>
             </Grid>
             </Grid>
          </Grid>
