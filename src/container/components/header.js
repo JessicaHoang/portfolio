@@ -41,13 +41,13 @@ function Header(){
      <div className={classes.root}>
          <Grid container space={3}>
             <Grid item xs={12}>
-            <a href="https://github.com/JessicaHoang" className={classes.social} alignItems= 'flex-start' >
+            <a href="https://github.com/JessicaHoang" target="_blank" className={classes.social} alignItems= 'flex-start' >
             <FontAwesomeIcon icon={faGithub} size="x" />
             </a>
-            <a href="https://www.linkedin.com/in/jessica-hoang/" className={classes.social}>
+            <a href="https://www.linkedin.com/in/jessica-hoang/" target="_blank" className={classes.social}>
             <FontAwesomeIcon icon={faLinkedin} size="x" />
             </a>
-            <a href="https://twitter.com/jessicahoang_" className={classes.social}>
+            <a href="https://twitter.com/jessicahoang_" target="_blank" className={classes.social}>
             <FontAwesomeIcon icon={faTwitter} size="x" />
             </a>
             <a className={classes.social}>jessicahoang@gmail.com</a>
@@ -65,7 +65,8 @@ function Header(){
                   <CardMedia
                   className={classes.media}
                   image="Portfolio-logo.jpg"
-                  title="logo" />
+                  title="logo" 
+                  />
                    <Typography gutterBottom variant="h5" component="h2"> Jessica Hoang
           </Typography>
                 </CardActionArea>

@@ -18,7 +18,9 @@ return(
                <Link to="/portfolio">
                     <li>Portfolio</li>
               </Link> 
-              <Typography color="textPrimary">Resume</Typography>
+              <a href="https://drive.google.com/file/d/1mqUicBi5agrzvMIUt_aRWiHPN7t8SH1-/view?usp=sharing" target="_blank">
+                  Resume
+              </a>
               </Breadcrumbs>  
 )
 }
