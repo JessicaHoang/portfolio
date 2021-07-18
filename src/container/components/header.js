@@ -13,6 +13,7 @@ import Typography from '@material-ui/core/Typography';
 import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import Link from '@material-ui/core/Link';
 
+
 function handleClick(event) {
   event.preventDefault();
   console.info('You clicked a breadcrumb.');
@@ -35,7 +36,7 @@ function Header(){
           width: 90,
           alignItems: 'center',
           display:'fleBox',
-          justifyContent: 'center',
+          justifyContent: 'center'
           
         }
       }));
@@ -80,7 +81,7 @@ function Header(){
             </Grid>
             <Grid item xs={12}>
               <Breadcrumbs aria-label="breadcrumb">
-              <Link color="inherit" href="/" onClick={handleClick}>
+              <Link color="inherit" href="/about.js" onClick={handleClick}>
               About
               </Link>
               <Link color="inherit" href="/homepage-content.js" onClick={handleClick}>
